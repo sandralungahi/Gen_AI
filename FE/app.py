@@ -9,7 +9,7 @@ st.title("Codebase Genius")
 st.markdown("### Automated AI-Powered Code Documentation Generator")
 
 repo_url = st.text_input("Enter GitHub Repository URL:",
-                         value="https://github.com/sandralungahi/Gen_AI")
+                         value="https://github.com/jaseci-labs/Agentic-AI.git")
 
 if st.button(" Generate Documentation"):
     with st.spinner("Analyzing repository and generating docs..."):
